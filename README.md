@@ -349,5 +349,6 @@ public void givenClassThenModifyFields() throws Exception {
 }                                                                                                      
 ```
 
-
+## 总结
+核心在于 `Class.forName(类名)`获取这个类的`Class<?>`，然后操作。
 
